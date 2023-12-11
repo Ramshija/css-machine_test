@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+label {
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+
+}
+
+h3 {
+    color: brown;
+    text-align: center;
+}
+
+h1 {
+    background-color: aquamarine;
+    color: brown;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 300px;
+}
+body{
+    background-image: url("/bck.jpg");
+}
+.container {
+    width: 100vb;
+    display: flex;
+    margin-left: 350px;
+    margin-right: 100px;
+}
+
+/* table {
+    width: "100vb";
+}  */
+table tr:nth-child(even)
+{background-color: rgb(193, 243, 226);
+
+}
+table tr:nth-child(odd)
+{background-color: rgb(155, 202, 212);
+
+}
+button{
+    background-color: rgb(255, 0, 85);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(164, 50, 205);
+}

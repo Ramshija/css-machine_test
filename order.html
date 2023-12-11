@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="/order.css">
+</head>
+
+<body>
+    <h1>BOOK AND RESERVE YOUR DINE</h1>
+    <div class="container">
+            <form action="person-details" name="personal">
+                <table cellspacing="5" cellpadding="8" width="800px">
+                    <tr>
+                        <td colspan="2">
+                            <h3>PERSON DETAILS</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="fname"> First Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="fname" placeholder="First Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="lname"> Last Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="lname" placeholder="Second Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="phone"> Telephone:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="phone" placeholder="Telephone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Address"> Address:</label>
+                        </td>
+                        <td>
+                            <textarea name="Address" id="Address" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+    
+                <tr>
+                    <td colspan="2">
+                        <h3>ORDER DETAILS</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="item" name="menu_section">Menu Section:</label>
+                       </td>
+                       <td>
+                        <input type="checkbox" name="menu_section1" value="Starter" checked />Starter
+                        <input type="checkbox" name="menu_section2" value="breakfast">breakfast
+                        <input type="checkbox" name="menu_section3" value="Lunch">Lunch
+                        <input type="checkbox" name="menu_section4" value="Dinner">Dinner
+                        <input type="checkbox" name="menu_section5" value="Kids_menu">Kids menu
+                        <input type="checkbox" name="menu_section6" value="Drinks">Drinks
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="menu_item">Menu item:</label>
+                    </td>
+                    <td>
+                        <select name="menu" id="menu">
+                            <option value="menu_section" selected disabled>Menu_items</option>
+                            <option value="starter">Starter items</option>
+                            <option value="breakfast">Breakfast items</option>
+                            <option value="Lunch">Lunch items</option>
+                            <option value="dinner">Dinner items</option>
+                            <option value="kids">Kids menu items</option>
+                            <option value="drinks">Drinks items</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="price" name="Price">Price:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="price">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Total" name="Total">Total:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="Total">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button name="order"> CONFIRM ORDER</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h3>PAYMENT DETAILS</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pay">payment:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="paytm" value="paytm" checked />Paytm
+                        <input type="radio" name="on_delivery" value="on_delivery">On Delivery
+                        <input type="radio" name="others" value="others ">Others
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

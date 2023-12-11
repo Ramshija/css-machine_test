@@ -1,0 +1,40 @@
+h1 {
+    background-color: aquamarine;
+    color: brown;
+    text-align: center;
+}
+button{
+    background-color: rgb(255, 0, 85);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(164, 50, 205);
+}
+.container{
+    display: flex;
+        flex-direction: row;
+}
+.item2{background-image: url("/contact.jpg");
+    border: 1px solid black; 
+    padding: 20px; 
+    width: 100vb;
+     height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.item1{
+    border: 1px solid black; 
+    padding: 20px; 
+    width: 100vb;
+     height: 600px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+}
